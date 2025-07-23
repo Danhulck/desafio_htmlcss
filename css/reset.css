@@ -46,3 +46,65 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Meu código */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--ford-claro: #1351d8;
+	--ford-escuro: #1b357e;
+}
+/* Tags */
+header{
+	display: flex;  
+	flex-direction: row;
+}
+
+footer{
+	display: flex;
+	background-color: var(--ford-escuro);
+	flex-direction: row;
+}
+/* Minhas Classes */
+/* Class Header */
+.Logo_header{
+	display: flex;
+
+}
+.navegacao{
+	display: flex;
+	align-items: center;
+}
+.link{
+	text-decoration: none;
+	color: var(--ford-claro);
+}
+/* Class Main */
+.texto_main{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	justify-content: center;
+}
+.imagem_1{
+	display: flex;
+	justify-content: center;
+}
+/* Class Footer */
+.redes_sociais_p{
+	color: aliceblue;
+}
+.redes_sociais{
+	display: flex;
+	align-items: center;
+	
+}
+.ford_footer{
+	display: flex;
+	
+}
+
+	
