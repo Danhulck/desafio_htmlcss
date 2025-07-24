@@ -49,7 +49,6 @@ table {
 }
 
 /* Meu código */
-
 *{
 	padding: 0;
 	margin: 0;
@@ -58,7 +57,7 @@ table {
 	--ford-claro: #1351d8;
 	--ford-escuro: #1b357e;
 }
-/* Tags */
+/* Tags*/
 body{
 	display: grid;
 	min-height: 100dvh;
@@ -74,15 +73,9 @@ header{
 	box-shadow: 0 0 2px 0;
 	height: 10vh;
 	font-family: "Ubuntu", sans-serif;
-  	font-weight: 400;
+  	font-weight: 600;
+	font-size: larger;
   	font-style: normal
-}
-main{
-	display: flex;
-	margin-top: 5px;
-	align-items: center;
-	flex-direction: column;
-	height: 70vh;
 }
 footer{
 	display: flex;
@@ -96,6 +89,7 @@ footer{
 	font-weight: 400;
 	font-style: normal
 }
+
 /* Minhas Classes */
 /* Class Header */
 .Logo_header{
@@ -109,29 +103,14 @@ footer{
 	display: flex;
 	align-self: center;
 	justify-content: space-around;
-	margin-left: 35%;
+	margin-left: 34%;
 	gap: 15%;
 }
 .link{
 	text-decoration: none;
 	color: var(--ford-claro);
 }
-/* Class Main */
-.texto_main{
-	display: flex;
-	flex-direction: row;
-	gap: 5px;
-	justify-content: center;
-	font-family: "Ubuntu", sans-serif;
-	font-weight: 400;
-	font-style: normal
-}
-.imagem_1{
-	display: flex;
-	justify-content: center;
-	width: 80%;
-	height: 70vh;
-}
+
 /* Class Footer */
 .redes_sociais_p{
 	color: aliceblue;
@@ -152,4 +131,44 @@ footer{
 	width: 100%;
 }
 
-	
+
+/*  Index Main */
+.indexPage{
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+	flex-direction: column;
+	height: 70vh;
+}
+.texto_main{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	justify-content: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal
+}
+.imagem_1{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: 70vh;
+}
+
+/*  Lancamento Main */
+.lancamentoPage{
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+	flex-direction: column;
+	height: 70vh;
+}
+.videoDemonstracao{
+	width: 100%;
+	height: 67%;
+}
+.veiculos{
+	display: flex;
+	gap: 3%;
+}
