@@ -71,6 +71,7 @@ header{
 	align-items: center;
 	height: 2rem;
 	border-bottom: 1px solid #757679b4;
+	box-shadow: 0 0 2px 0;
 	height: 10vh;
 	font-family: "Ubuntu", sans-serif;
   	font-weight: 400;
@@ -81,7 +82,7 @@ main{
 	margin-top: 5px;
 	align-items: center;
 	flex-direction: column;
-	height: 80vh;
+	height: 70vh;
 }
 footer{
 	display: flex;
@@ -138,8 +139,9 @@ footer{
 .redes_sociais{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	margin-left: 3%;
-	gap: 3%;
+
 }
 .ford_footer{
 	display: flex;
