@@ -82,8 +82,8 @@ footer{
 	margin-top: 5%;
 	background-color: var(--ford-escuro);
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 	height: 10vh;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
@@ -143,8 +143,8 @@ footer{
 .texto_main{
 	display: flex;
 	flex-direction: row;
-	gap: 5px;
 	justify-content: center;
+	gap: 5px;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 	font-style: normal
@@ -170,5 +170,32 @@ footer{
 }
 .veiculos{
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10%;
+}
+.check-veiculos {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 	gap: 3%;
+}
+.checkbox{
+	appearance: none;
+    -webkit-appearance: none;
+	display: flex;
+	width: 24px;
+    height: 24px;
+    border: 2px solid #555;
+    border-radius: 6px;
+    background-color: white
+
+}
+.checkbox:checked {
+  background-color: var(--ford-claro);
+}
+.texto-veiculos {
+	display: flex;
+	flex-direction: column;
 }
